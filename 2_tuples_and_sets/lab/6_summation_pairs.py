@@ -1,0 +1,2 @@
+numbers = [int(x) for x in input().split()]
+target = int(input())
