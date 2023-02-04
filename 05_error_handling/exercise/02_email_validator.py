@@ -13,7 +13,7 @@ class InvalidDomainError(Exception):
     pass
 
 
-search_pattern = r'([\w+]+)?(@)?([a-zA-Z]+)?(.)?([a-zA-Z0-9]+)\b'
+search_pattern = r'([\w+\.]+)?(@)?([a-zA-Z]+)?(.)?([a-zA-Z0-9]+)\b'
 valid_domain_ends = ["com", "bg", "org", "net"]
 
 while True:
